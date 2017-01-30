@@ -31,6 +31,5 @@ _This guide will be only based in Linux OS, planning to replicate it to Windows 
     ```bash
     $ mkdosfs /dev/sdb2 -fat32
     ```
-* Download minibian img last version from website
-[Minibian Website] (https://minibianpi.wordpress.com/)
-  * 
+* Download minibian img last version from Minibian website
+  * [Minibian Website] (https://minibianpi.wordpress.com/)
