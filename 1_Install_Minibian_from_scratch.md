@@ -100,7 +100,7 @@ $ ssh root@{device IP}
     $ apt-get update
     $ apt-get upgrade
     $ apt-get dist-upgrade
-    $ apt-get install sudo iptables nano #installing sudo iptables and nano
+    $ apt-get install sudo iptables nano libexpat1 #installing sudo iptables and nano
     ```
   * Install WIFI and bluethoot drivers
     ```bash
