@@ -3,6 +3,7 @@
 _This guide will be only based in Linux OS, planning to replicate it to Windows and OSX_
 
 ---
+[installing](Install_Minibian_from_scratch.md)
 ## Installing minibian from scratch
 * Format the SD card from console or using **GPARTED**
   * Using console:
@@ -46,4 +47,4 @@ _This guide will be only based in Linux OS, planning to replicate it to Windows 
       2. Select the SD card
       3. Burn the image
   * Once the image is already burned, insert the SD card on RPi3, plug Eth cable, and power cable.
-* 
+*
