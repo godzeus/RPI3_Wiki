@@ -102,12 +102,6 @@ $ ssh root@{device IP}
     $ apt-get dist-upgrade
     $ apt-get install sudo iptables nano libexpat1 #installing sudo iptables and nano
     ```
-  * Install WIFI and bluethoot drivers
-    ```bash
-    $ apt-get install firmware-brcm80211 # Driver wifi RPI3
-    $ apt-get install pi-bluetooth  # Optional - if bluethoot is required
-    $ apt-get install wpasupplicant # Optional - Only if it's require to connect to external WIFI  https://minibianpi.wordpress.com/how-to/wifi/
-    ```
   * Create "pi" user, and assign it to admin group
     ```bash
     $ add user pi
