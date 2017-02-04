@@ -96,6 +96,7 @@ $ ssh root@{device IP}
     ```
 * Proceed to update the system to last version of packages
   * Update the system
+  
     ```bash
     $ apt-get update
     $ apt-get upgrade
