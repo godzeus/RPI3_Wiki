@@ -23,10 +23,10 @@
     ```
 	* Edit the file *locale.gen* and uncomment the line en_US.utf8
 	
-      ```bash
+    ```bash
       $ sudo nano /etc/locale.gen  # Uncomment the line_US.UTF-8 UTF-8 and press Ctrl+X, Y and Enter
 		  $ sudo locale-gen # to generate the locales
-      ```
+    ```
 	* If you get an error like *locale-gen cannot be found*, need to execute the following:
 	
     ```bash
