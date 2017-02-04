@@ -25,14 +25,14 @@
 	
     ```bash
       $ sudo nano /etc/locale.gen  # Uncomment the line_US.UTF-8 UTF-8 and press Ctrl+X, Y and Enter
-		  $ sudo locale-gen # to generate the locales
+      $ sudo locale-gen # to generate the locales
     ```
 	* If you get an error like *locale-gen cannot be found*, need to execute the following:
 	
     ```bash
     $ echo "export PATH=$PATH:/usr/sbin" >> ~/.profile
-		$ sudo locale-gen
-	  $ $ sudo dpkg-reconfigure locales # reconfigure the locales for good measures
+    $ sudo locale-gen
+    $ $ sudo dpkg-reconfigure locales # reconfigure the locales for good measures
     ```
 	* Then execute locale to list it:
 	
