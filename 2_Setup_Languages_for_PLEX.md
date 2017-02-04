@@ -22,26 +22,31 @@
     # If en_US.utf8 is not present, it must be generated
     ```
 	* Edit the file *locale.gen* and uncomment the line en_US.utf8
+	
       ```bash
       $ sudo nano /etc/locale.gen  # Uncomment the line_US.UTF-8 UTF-8 and press Ctrl+X, Y and Enter
 		  $ sudo locale-gen # to generate the locales
       ```
 	* If you get an error like *locale-gen cannot be found*, need to execute the following:
+	
     ```bash
     $ echo "export PATH=$PATH:/usr/sbin" >> ~/.profile
 		$ sudo locale-gen
 	  $ $ sudo dpkg-reconfigure locales # reconfigure the locales for good measures
     ```
 	* Then execute locale to list it:
+	
     ```bash
     $ locale
     ```
 	* If still some errors are showed, like:
+	
     ```bash
     # locale: Cannot set LC_CTYPE to default locale: No such file or directory
 		# locale: Cannot set LC_ALL to default locale: No such file or directory
     ```
 	* Open the file *environments* and add the following lines:
+	
     ```bash
     $ sudo nano /etc/environment
 		# LC_ALL=en_US.UTF-8
@@ -49,6 +54,7 @@
     # pressCtrl+X, Y and Enter to save
     ```
 	* Reboot the RPi3
+	
     ```bash
     $ sudo reboot
     ```
