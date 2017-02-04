@@ -104,6 +104,7 @@ $ ssh root@{device IP}
     $ apt-get install sudo iptables nano libexpat1 #installing sudo iptables and nano
     ```
   * Create "pi" user, and assign it to admin group
+  
     ```bash
     $ add user pi
     $ add user pi sudo
