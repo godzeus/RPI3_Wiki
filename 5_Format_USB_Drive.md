@@ -9,7 +9,8 @@
 	$ sudo setfacl -Rm g:pi:rwx /mnt/usbstorage
 	$ sudo blkid
 	$ sudo mount -o uid=pi,gid=pi /dev/sda1 /mnt/usbstorage
-	i da error
+
+	*** In case of errors ***
 	$ sudo mount -t uid=pi,gid=pi /dev/sda1 /mnt/usbstorage
 	$ sudo ls -l /dev/disk/by-uuid/
 	$ sudo nano /etc/fstab
