@@ -1,15 +1,17 @@
 
 ## Installation of PLEX MEDIA SERVER using repository:
 * Enable *https* to avoid the error **E: The method driver /usr/lib/apt/methods/https could not be found.**
+
 ```bash
-		$ sudo apt-get update && sudo apt-get install apt-transport-https binutils -y --force-yes
-		```
+$ sudo apt-get update && sudo apt-get install apt-transport-https binutils -y --force-yes
+```
+
 * Get the gpg key and add uglymaoo's repository:
 ```bash
-		$ wget -O - https://dev2day.de/pms/dev2day-pms.gpg.key | sudo apt-key add -
-		$ echo "deb https://dev2day.de/pms/ jessie main" | sudo tee /etc/apt/sources.list.d/pms.list
-		$ sudo apt-get update
-		```
+$ wget -O - https://dev2day.de/pms/dev2day-pms.gpg.key | sudo apt-key add -
+$ echo "deb https://dev2day.de/pms/ jessie main" | sudo tee /etc/apt/sources.list.d/pms.list
+$ sudo apt-get update
+```
 * Instalar PMS
 ```bash
 		$ sudo apt-get install plexmediaserver -y
@@ -18,7 +20,7 @@
 ### To update PMS from repository:
 	Note: The repository contains the latest non-Plex Pass version. If you want the Plex Pass version you will have to build it yourself using the [manual method 3](http://www.htpcguides.com/install-plex-media-server-raspberry-pi-2-3-manually/)
 ```bash
-$	sudo apt-get update && sudo apt-get upgrade -y
+$ sudo apt-get update && sudo apt-get upgrade -y
 ```
 
 ## Fix Plex Permission Issues
